@@ -37,6 +37,12 @@ Dark and light themes built on the palette live in [`themes/`](themes):
 - **Vim / Neovim**: copy `themes/vim/colors/omnicol*.vim` to `~/.vim/colors/` (Neovim: `~/.config/nvim/colors/`), then `set termguicolors` and `colorscheme omnicol` (or `omnicol-light`).
 - **Helix**: copy both `themes/helix/*.toml` files to `~/.config/helix/themes/`, then set `theme = "omnicol"` (or `"omnicol-light"`) in `~/.config/helix/config.toml`, or try it live with `:theme omnicol`.
 - **Zed**: copy `themes/zed/omnicol.json` to `~/.config/zed/themes/`, then pick *omnicol* or *omnicol light* in the theme selector.
+- **VS Code / Positron**: copy the `themes/vscode` folder into the editor's extensions folder, then restart and pick *omnicol* or *omnicol light* under *Preferences: Color Theme*:
+
+  ```sh
+  cp -r themes/vscode ~/.vscode/extensions/btraven00.omnicol-0.1.0    # VS Code
+  cp -r themes/vscode ~/.positron/extensions/btraven00.omnicol-0.1.0  # Positron
+  ```
 
 ## Authorship
 

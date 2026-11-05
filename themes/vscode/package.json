@@ -1,0 +1,32 @@
+{
+  "name": "omnicol",
+  "displayName": "omnicol",
+  "description": "Dark and light themes from the omnicol palette",
+  "version": "0.1.0",
+  "publisher": "btraven00",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btraven00/omnicol"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "omnicol",
+        "uiTheme": "vs-dark",
+        "path": "./themes/omnicol-dark-color-theme.json"
+      },
+      {
+        "label": "omnicol light",
+        "uiTheme": "vs",
+        "path": "./themes/omnicol-light-color-theme.json"
+      }
+    ]
+  }
+}
