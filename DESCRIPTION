@@ -1,0 +1,7 @@
+Package: omnicols
+Title: The 'omnicol' Colour Palette
+Version: 0.1.0
+Authors@R: person("Ben", email = "ben.uzh@proton.me", role = c("aut", "cre"))
+Description: Provides the ten-colour 'omnicol' qualitative palette.
+License: MIT + file LICENSE
+Encoding: UTF-8
