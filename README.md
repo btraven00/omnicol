@@ -13,7 +13,7 @@ remotes::install_github("btraven00/omnicol")
 ## Use
 
 ```r
-library(omnicols)
+library(omnicol)
 
 omnicol
 #>  [1] "#b82033" "#fa8e1b" "#dec03c" "#738c18" "#045207"
