@@ -40,5 +40,5 @@ Dark and light themes built on the palette live in [`themes/`](themes):
 
 ## Authorship
 
-This palette is a collective work, composed during a coffee-code-and-code
+This palette is a collective work, composed during a coffee-cake-and-code
 session on the fifth of November, *Anno Domini* 2026.
