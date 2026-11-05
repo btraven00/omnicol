@@ -1,0 +1,81 @@
+# omnicol: https://github.com/btraven00/omnicol
+"comment" = { fg = "lavender", modifiers = ["italic"] }
+"constant" = "orange"
+"string" = "olive"
+"variable" = "fg"
+"variable.builtin" = "orange"
+"function" = "teal"
+"keyword" = "pink"
+"type" = "yellow"
+"constructor" = "yellow"
+"attribute" = "teal"
+"tag" = "pink"
+"namespace" = "yellow"
+"special" = "teal"
+"operator" = "fg"
+"punctuation" = "fg"
+"label" = "pink"
+
+"markup.heading" = { fg = "yellow", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "teal", modifiers = ["underlined"] }
+"markup.link.text" = "pink"
+"markup.raw" = "olive"
+"markup.list" = "orange"
+"markup.quote" = "lavender"
+
+"diff.plus" = "teal"
+"diff.minus" = "red"
+"diff.delta" = "orange"
+
+"ui.background" = { fg = "fg", bg = "bg" }
+"ui.text" = "fg"
+"ui.text.focus" = { bg = "bg2" }
+"ui.cursor" = { fg = "bg", bg = "lavender" }
+"ui.cursor.primary" = { fg = "bg", bg = "orange" }
+"ui.cursor.match" = { fg = "orange", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "bg1" }
+"ui.selection" = { bg = "bg2" }
+"ui.selection.primary" = { bg = "purple" }
+"ui.linenr" = "dim"
+"ui.linenr.selected" = "yellow"
+"ui.statusline" = { fg = "fg", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "lavender", bg = "bg1" }
+"ui.statusline.normal" = { fg = "fg", bg = "blue" }
+"ui.statusline.insert" = { fg = "fg", bg = "green" }
+"ui.statusline.select" = { fg = "fg", bg = "purple" }
+"ui.popup" = { bg = "bg1" }
+"ui.window" = "bg2"
+"ui.help" = { fg = "fg", bg = "bg1" }
+"ui.menu" = { fg = "fg", bg = "bg1" }
+"ui.menu.selected" = { fg = "fg", bg = "blue" }
+"ui.virtual.whitespace" = "bg2"
+"ui.virtual.ruler" = { bg = "bg1" }
+"ui.virtual.inlay-hint" = "dim"
+
+"error" = "red"
+"warning" = "orange"
+"info" = "teal"
+"hint" = "lavender"
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
+"diagnostic.info" = { underline = { color = "teal", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "lavender", style = "curl" } }
+
+[palette]
+bg = "#1c1b22"
+bg1 = "#26252e"
+bg2 = "#34323f"
+dim = "#4f4c5e"
+fg = "#e6e1d6"
+red = "#b82033"
+orange = "#fa8e1b"
+yellow = "#dec03c"
+olive = "#738c18"
+green = "#045207"
+pink = "#cf84b2"
+blue = "#425fed"
+teal = "#69b09c"
+purple = "#81207e"
+lavender = "#8584be"

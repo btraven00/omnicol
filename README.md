@@ -30,6 +30,14 @@ ggplot2::scale_fill_manual(values = omnicol)
 pals::pal.safe(omnicol, main = "omnicol")
 ```
 
+## Editor themes
+
+Dark themes built on the palette live in [`themes/`](themes):
+
+- **Vim / Neovim**: copy `themes/vim/colors/omnicol.vim` to `~/.vim/colors/` (Neovim: `~/.config/nvim/colors/`), then `set termguicolors` and `colorscheme omnicol`.
+- **Helix**: copy `themes/helix/omnicol.toml` to `~/.config/helix/themes/`, then set `theme = "omnicol"`.
+- **Zed**: copy `themes/zed/omnicol.json` to `~/.config/zed/themes/`, then pick *omnicol* in the theme selector.
+
 ## Authorship
 
 This palette is a collective work, composed during a coffee-code-and-code
