@@ -29,3 +29,8 @@ ggplot2::scale_fill_manual(values = omnicol)
 # colour-blind safety check
 pals::pal.safe(omnicol, main = "omnicol")
 ```
+
+## Authorship
+
+This palette is a collective work, composed during a coffee-code-and-code
+session on the fifth of November, *Anno Domini* 2026.
