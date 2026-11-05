@@ -1,0 +1,47 @@
+# omnicol (light): https://github.com/btraven00/omnicol
+# Needs omnicol.toml in the same themes directory.
+inherits = "omnicol"
+
+"constant" = "olive"
+"string" = "green"
+"variable.builtin" = "olive"
+"function" = "blue"
+"keyword" = "purple"
+"type" = "red"
+"constructor" = "red"
+"attribute" = "blue"
+"tag" = "purple"
+"namespace" = "red"
+"special" = "blue"
+"label" = "purple"
+
+"markup.heading" = { fg = "purple", modifiers = ["bold"] }
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+"markup.raw" = "green"
+"markup.list" = "red"
+
+"diff.plus" = "green"
+"diff.delta" = "olive"
+
+"ui.cursor" = { fg = "bg", bg = "lavender" }
+"ui.cursor.primary" = { fg = "fg", bg = "orange" }
+"ui.cursor.match" = { fg = "red", modifiers = ["bold"] }
+"ui.selection.primary" = { bg = "pinktint" }
+"ui.linenr.selected" = "purple"
+"ui.statusline.inactive" = { fg = "fg", bg = "bg2" }
+"ui.statusline.normal" = { fg = "bg", bg = "blue" }
+"ui.statusline.insert" = { fg = "bg", bg = "green" }
+"ui.statusline.select" = { fg = "bg", bg = "purple" }
+"ui.menu.selected" = { fg = "bg", bg = "blue" }
+
+"warning" = "olive"
+"info" = "blue"
+
+[palette]
+bg = "#f7f4ec"
+bg1 = "#ece8de"
+bg2 = "#ddd8cb"
+dim = "#a8a3b5"
+fg = "#2a2833"
+pinktint = "#ecd0e0"

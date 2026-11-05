@@ -32,11 +32,11 @@ pals::pal.safe(omnicol, main = "omnicol")
 
 ## Editor themes
 
-Dark themes built on the palette live in [`themes/`](themes):
+Dark and light themes built on the palette live in [`themes/`](themes):
 
-- **Vim / Neovim**: copy `themes/vim/colors/omnicol.vim` to `~/.vim/colors/` (Neovim: `~/.config/nvim/colors/`), then `set termguicolors` and `colorscheme omnicol`.
-- **Helix**: copy `themes/helix/omnicol.toml` to `~/.config/helix/themes/`, then set `theme = "omnicol"`.
-- **Zed**: copy `themes/zed/omnicol.json` to `~/.config/zed/themes/`, then pick *omnicol* in the theme selector.
+- **Vim / Neovim**: copy `themes/vim/colors/omnicol*.vim` to `~/.vim/colors/` (Neovim: `~/.config/nvim/colors/`), then `set termguicolors` and `colorscheme omnicol` (or `omnicol-light`).
+- **Helix**: copy both `themes/helix/*.toml` files to `~/.config/helix/themes/`, then set `theme = "omnicol"` (or `"omnicol-light"`) in `~/.config/helix/config.toml`, or try it live with `:theme omnicol`.
+- **Zed**: copy `themes/zed/omnicol.json` to `~/.config/zed/themes/`, then pick *omnicol* or *omnicol light* in the theme selector.
 
 ## Authorship
 
